@@ -18,8 +18,7 @@ y = data[:, -1].astype(str)
 # summarize
 print('Input', X.shape)
 print('Output', y.shape)
-Input (286, 9)
-Output (286,)
+
 from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import OrdinalEncoder
 # ordinal encode input variables
@@ -33,7 +32,7 @@ print('Input', X.shape)
 print(X[:5, :])
 print('Output', y.shape)
 print(y[:5])
-Input (286, 9)
+
 
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
